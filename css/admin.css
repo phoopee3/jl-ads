@@ -1,0 +1,190 @@
+/* JL Ads Admin Styles */
+
+.jl-ad-version {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.jl-ad-version h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.jl-ad-field {
+    margin-bottom: 15px;
+}
+
+.jl-ad-field:last-child {
+    margin-bottom: 0;
+}
+
+.jl-ad-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.jl-ad-field input[type="url"],
+.jl-ad-field input[type="text"],
+.jl-ad-field select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.jl-ad-image-preview {
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.jl-ad-image-preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.jl-ad-upload-image,
+.jl-ad-remove-image {
+    margin-right: 5px !important;
+}
+
+/* Schedule Meta Box */
+.jl-ad-schedule .jl-ad-field {
+    margin-bottom: 10px;
+}
+
+.jl-ad-schedule label {
+    font-weight: normal;
+}
+
+.jl-ad-schedule input[type="radio"] {
+    margin-right: 5px;
+}
+
+.jl-ad-date-fields {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.jl-ad-date-fields label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.jl-ad-date-fields input[type="date"] {
+    width: 100%;
+}
+
+/* Shortcode Meta Box */
+.jl-ad-shortcode-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.jl-ad-shortcode-input {
+    font-family: monospace;
+    background: #f5f5f5;
+}
+
+.jl-ad-copy-shortcode {
+    flex-shrink: 0;
+}
+
+.jl-ad-copy-success {
+    color: #46b450;
+    font-weight: 600;
+}
+
+/* Shortcode Column Styles */
+.jl-ad-shortcode-column {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.jl-ad-shortcode-text {
+    background: #f0f0f1;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.jl-ad-copy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid #c3c4c7;
+    border-radius: 3px;
+    background: #f6f7f7;
+    cursor: pointer;
+    color: #50575e;
+    transition: all 0.1s ease;
+}
+
+.jl-ad-copy-btn:hover {
+    background: #f0f0f1;
+    border-color: #8c8f94;
+    color: #1d2327;
+}
+
+.jl-ad-copy-btn:focus {
+    outline: none;
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+}
+
+.jl-ad-copy-btn.copied {
+    background: #00a32a;
+    border-color: #00a32a;
+    color: #fff;
+}
+
+.jl-ad-copy-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+.jl-ad-copy-success {
+    color: #46b450;
+    font-weight: 600;
+}
+
+/* Status Indicator Column */
+.jl-ad-status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.jl-ad-circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.jl-ad-circle-green {
+    background-color: #00a32a;
+    box-shadow: 0 0 0 2px rgba(0, 163, 42, 0.2);
+}
+
+.jl-ad-circle-red {
+    background-color: #d63638;
+    box-shadow: 0 0 0 2px rgba(214, 54, 56, 0.2);
+}
+
+.jl-ad-status-label {
+    font-size: 13px;
+}

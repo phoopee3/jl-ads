@@ -1,0 +1,26 @@
+/* JL Ads Frontend Styles */
+
+.jl-ad-container {
+    display: block;
+    line-height: 0;
+}
+
+.jl-ad-container a {
+    display: block;
+    line-height: 0;
+}
+
+.jl-ad-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hide all versions by default - JS will show the correct one */
+.jl-ad-version {
+    display: none;
+}
+
+/* Fallback for no-JS: show desktop version */
+.no-js .jl-ad-desktop {
+    display: block;
+}
